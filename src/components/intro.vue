@@ -49,6 +49,7 @@
 export default {
   data() {
     return {
+
       arco: false,
     };
   },
@@ -59,10 +60,9 @@ export default {
   height: 400px;
   transition: all 1s;
 }
-
 .i_svg path {
   fill: rgba(82, 115, 77, 0);
-  stroke: #1f1a0f;
+  stroke: #000;
   stroke-width: 1px;
   stroke-dasharray: 1550;
   stroke-dashoffset: 1550;
@@ -72,28 +72,13 @@ export default {
 @keyframes stroke {
   100% {
     stroke-dashoffset: 0px;
-    fill: #b0a000;
-  }
-}
-.i_svg path {
-  fill: rgba(82, 115, 77, 0);
-  stroke: #fff;
-  stroke-width: 1px;
-  stroke-dasharray: 1550;
-  stroke-dashoffset: 1550;
-  animation: stroke 8s forwards;
-}
-
-@keyframes stroke {
-  100% {
-    stroke-dashoffset: 0px;
-    fill: #000;
+    fill: #fff;
   }
 }
 
 .a_path {
-  fill: rgba(82, 115, 77, 0);
-  stroke: #1f1a0f;
+  fill: rgba(255, 255, 255, 0);
+  stroke: #000;
   stroke-width: 1px;
   stroke-dasharray: 350;
   stroke-dashoffset: 350;
@@ -103,21 +88,13 @@ export default {
 @keyframes a_path {
   100% {
     stroke-dashoffset: 0;
-    fill: #b0a000;
+    fill: #fff;
   }
-}
-.a_path {
-  fill: rgba(82, 115, 77, 0);
-  stroke: #fff;
-  stroke-width: 1px;
-  stroke-dasharray: 350;
-  stroke-dashoffset: 350;
-  animation: a_path 6.5s forwards;
 }
 
 .m_path {
-  fill: rgba(82, 115, 77, 0);
-  stroke: #1f1a0f;
+  fill: rgba(255, 255, 255, 0);
+  stroke: #000;
   stroke-width: 1px;
   stroke-dasharray: 560;
   stroke-dashoffset: 560;
@@ -127,14 +104,7 @@ export default {
 @keyframes m_path {
   100% {
     stroke-dashoffset: 0;
-    fill: #b0a000;
-  }
-}
-
-@keyframes a_path {
-  100% {
-    stroke-dashoffset: 0;
-    fill: #000;
+    fill: #fff;
   }
 }
 
@@ -142,6 +112,7 @@ export default {
   width: 100%;
   height: 860px;
   padding-top: 50px;
+  margin-bottom : 110px;
 }
 
 .intro_btn {
@@ -153,22 +124,6 @@ export default {
   font-size: 24px;
   position: relative;
   margin-top: 35px;
-}
-
-.m_path {
-  fill: rgba(82, 115, 77, 0);
-  stroke: #fff;
-  stroke-width: 1px;
-  stroke-dasharray: 560;
-  stroke-dashoffset: 560;
-  animation: m_path 5s forwards;
-}
-
-@keyframes m_path {
-  100% {
-    stroke-dashoffset: 0;
-    fill: #000;
-  }
 }
 
 .intro_btn span {
@@ -290,7 +245,7 @@ span {
   position: absolute;
   width: 180px;
   height: 180px;
-  background-color: #1f1a0f;
+  background-color: #000000;
   left: 14%;
   top: 14%;
   animation: ani 5s infinite;
@@ -323,7 +278,7 @@ span {
   position: absolute;
   width: 120px;
   height: 120px;
-  background-color: #1f1a0f;
+  background-color: #000000;
   left: 26%;
   top: 26%;
   animation: ani 5s infinite;
@@ -363,7 +318,7 @@ span {
 }
 
 .font_128 {
-  color: #101;
+  color: #000;
   font-size: 128px;
   font-weight: bold;
 }
@@ -392,7 +347,6 @@ span {
   .right_chest {
     width: 0;
     height: 0;
-    box-shadow: 0;
   }
 
   .right_chest > span:nth-child(1) {
@@ -418,7 +372,7 @@ span {
     position: absolute;
     width: 180px;
     height: 180px;
-    background-color: #090800;
+    background-color: #000;
     left: 14%;
     top: 14%;
     animation: ani 5s infinite;

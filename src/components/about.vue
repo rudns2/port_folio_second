@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="about_box">
-      <h1 class="about_title">About Me</h1>
+      <h1 class="about_title"></h1>
       <div class="about_section_wrap">
         <section class="about_section_me">
           <article class="about_myProfil_article" data-aos="fade-up" data-aos-duration="1500">
@@ -35,16 +35,14 @@
             <div class="about_profil_text">
               <ul>
                 <li>
-                  <h1 class="about_MyName_h1">내가 좋아하는 명언</h1>
+                  <h1 class="about_MyName_h1">저의 취미는</h1>
                 </li>
                 <li>
                   <h4 class="about_MyName_h4">
-                    한 가지 생각을 선택하라. 그 생각을 당신의 삶으로 만들어라. 그걸 생각하고, 꿈꾸고, 그에 기반해서 살아가라. 당신의 몸의 모든 부분, 뇌, 근육, 신경을 그 생각으로 가득 채우고 다른
-                    생각은 다 내버려둬라. 이것이 성공하는 방법이다.
+                    전시회를 좋아해서 한달에 한 두번은 서울에 나와서 사진전이나 미술관을 갑니다.
+                    최근에는 사진작가인 나탈리 카르푸셴코의 사진전을 감명 깊게 보았으며,
+                    자연과 사람의 조화로움을 느꼈습니다.
                   </h4>
-                </li>
-                <li>
-                  <h1 class="about_MyName_h1">-스와미 비베카난다-</h1>
                 </li>
               </ul>
             </div>
@@ -190,7 +188,7 @@ export default {
 }
 
 .about_section_us article:nth-child(2) {
-  background-color: #584f00;
+  background-color: #000;
 }
 
 .about_skill_png img {

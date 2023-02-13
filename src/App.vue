@@ -1,7 +1,8 @@
 <template>
   <headerC />
   <intro id="Intro" />
-  <about id="About" />
+  <!-- <about id="About" /> -->
+  <about2 id="About2" />
   <cloning id="Webclon" />
   <project id="Project" />
   <contact id="Contact" />
@@ -13,6 +14,7 @@ import about from "./components/about.vue";
 import cloning from "./components/cloning.vue";
 import project from "./components/project.vue";
 import contact from "./components/contact.vue";
+import about2 from "./components/about2.vue";
 import AOS from "aos";
 
 export default {
@@ -24,6 +26,7 @@ export default {
     cloning,
     project,
     contact,
+    about2
   },
   created() {
     AOS.init({ once: true });
@@ -43,7 +46,6 @@ export default {
 
 body {
   margin: 0;
-  background-color: #fefcfe;
 }
 a {
   text-decoration: none;

@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <div class="project_box">
-      <h1 class="project_h1">Project</h1>
+      <h1 class="project_h1">프로젝트</h1>
       <section class="project_slide_wrap">
         <article class="project_slide_content">
           <div class="project_img_wrap">
@@ -39,7 +39,6 @@ export default {
 .project {
   width: 100%;
   padding-bottom: 110px;
-  background-color: #bfaf0f;
 }
 .project_box {
   max-width: 1400px;
@@ -48,10 +47,11 @@ export default {
 }
 
 .project_h1 {
-  color: #fff;
+  color: #000;
   font-size: 64px;
   font-weight: bold;
-  margin: 110px auto 55px;
+  text-align: justify;
+  margin-bottom: 35px;
 }
 
 .project_img_wrap {
@@ -66,6 +66,9 @@ export default {
 }
 .project_img_list img {
   width: 100%;
+}
+.project_links{
+  background-color: #bfaf0f;
 }
 .project_links img {
   width: 35px;

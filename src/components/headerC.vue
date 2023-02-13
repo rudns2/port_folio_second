@@ -8,16 +8,10 @@
           <li class="gotosec"><span class="W_a head_span">WebClon</span><span class="W_b gotosec head_span" data-target="Webclon" @click="goSection">웹클론</span></li>
           <li class="gotosec"><span class="P_a head_span">Project</span><span class="P_b gotosec head_span" data-target="Project" @click="goSection">프로젝트</span></li>
           <li class="gotosec"><span class="C_a head_span">Contact</span><span class="C_b gotosec head_span" @click="goSection" data-target="Contact">연락하기</span></li>
-          <li class="gotosec"><span class="I_a head_span">Intro</span><span class="I_b gotosec head_span" data-target="Intro" @click="goSection">소개</span></li>
-          <li class="gotosec"><span class="A_a head_span">About</span><span class="A_b gotosec head_span" data-target="About" @click="goSection">나에대해서</span></li>
-          <li class="gotosec"><span class="P_a head_span">Project</span><span class="P_b gotosec head_span" data-target="Project" @click="goSection">프로젝트</span></li>
-          <li class="gotosec"><span class="W_a head_span">WebClon</span><span class="W_b gotosec head_span" data-target="Webclon" @click="goSection">웹클론</span></li>
-          <li class="gotosec"><span class="C_a head_span">Contact</span><span class="C_b gotosec head_span" @click="goSection" data-target="Contact">전화하기</span></li>
         </ul>
       </nav>
       <div class="head_date">
         <span class="head_date_span">{{ now }}</span>
-        <button class="head_date_btn" @click="time">지금시간은?</button>
       </div>
       <div class="head_mobile_wrap" v-on:click="mobilMouseover">
         <nav class="head_mobile_nav">
@@ -139,7 +133,9 @@ export default {
   display: flex;
   gap: 10px;
 }
-
+.nav_ul li {
+  width : 100px;
+}
 .nav_btn {
   display: block;
   width: 50px;
@@ -150,8 +146,7 @@ export default {
 }
 .gotosec {
   list-style: none;
-  font-size: 24px;
-  padding: 0 10px;
+  font-size: 18px;
   cursor: pointer;
 }
 .gotosec:hover .I_a {
