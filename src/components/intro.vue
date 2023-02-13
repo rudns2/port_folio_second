@@ -178,7 +178,7 @@ export default {
 
 .intro_flex_title {
   display: flex;
-  height: 500px;
+  height: 600px;
 }
 
 .intro_title {
