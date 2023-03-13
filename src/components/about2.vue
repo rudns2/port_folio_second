@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <div class="am2_wrap">
     <div class="am2">
       <section class="am2_profil_wrap">
@@ -92,6 +92,7 @@
   .am2_wrap{
     width : 100%;
     height: 900px;
+    padding-top: 50px;
   }
   .am2 {
     max-width: 1440px;

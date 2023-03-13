@@ -9,7 +9,7 @@
               <img src="../assets/img/wonju-env-eba-vmtpngwa-ap-northeast-2-elasticbeanstalk-2023-01-04-09_26_two1.png" alt="" />
               <div class="project_links">
                 <h1>{{ projectSite[0] }}</h1>
-                <a href="#"><img src="../assets/img/github-mark-white.png" alt="" /></a>
+                <a href="https://github.com/walkingcabbage/wonju.git"><img src="../assets/img/github-mark-white.png" alt="" /></a>
               </div>
             </div>
             <div class="project_img_list">

@@ -4,7 +4,7 @@
       <nav class="head_main_nav">
         <ul class="nav_ul">
           <li class="gotosec"><span class="I_a head_span">Intro</span><span class="I_b gotosec head_span" data-target="Intro" @click="goSection">소개</span></li>
-          <li class="gotosec"><span class="A_a head_span">About</span><span class="A_b gotosec head_span" data-target="About" @click="goSection">나에대해서</span></li>
+          <li class="gotosec"><span class="A_a head_span">About</span><span class="A_b gotosec head_span" data-target="About2" @click="goSection">나에대해서</span></li>
           <li class="gotosec"><span class="W_a head_span">WebClon</span><span class="W_b gotosec head_span" data-target="Webclon" @click="goSection">웹클론</span></li>
           <li class="gotosec"><span class="P_a head_span">Project</span><span class="P_b gotosec head_span" data-target="Project" @click="goSection">프로젝트</span></li>
           <li class="gotosec"><span class="C_a head_span">Contact</span><span class="C_b gotosec head_span" @click="goSection" data-target="Contact">연락하기</span></li>
