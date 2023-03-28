@@ -43,10 +43,13 @@
             </div>
           </swiper-slide>
           <swiper-slide>
-            <div class="clon_card_01 ing">
-              <img class="panel_01_front" src="../assets/img/noomclone.jpg" alt="">
+            <div class="clon_card_01">
+              <img class="panel_01_front" src="../assets/img/clon_img101353.png" alt="">
               <div class="clon_links">
-                <span class="ing_span">준비중</span>
+                <a href="https://rudns2.github.io/nomardcoder_todolist/">
+                  <h1 class="clon_h4">TODOList</h1>
+                </a>
+                <a href="https://github.com/rudns2/nomardcoder_todolist.git"><img class="clon_git_logo" src="../assets/img/github-mark-white.png" alt=""></a>
               </div>
             </div>
           </swiper-slide>
