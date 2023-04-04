@@ -1,7 +1,7 @@
 <template>
   <div class="cloing_box">
     <div class="cloning_box_wrap">
-      <h1 class="clon_h1_tit">기초다지기</h1>
+      <h1 class="clon_h1_tit">웹 클론</h1>
       <div class="clon_img_flex">
         <swiper class="clon_swiper" :navigation="true" :modules="modules" :slides-per-view="1" :space-between="50"
           @swiper="onSwiper" @slideChange="onSlideChange">
@@ -49,7 +49,8 @@
                 <a href="https://rudns2.github.io/nomardcoder_todolist/">
                   <h1 class="clon_h4">TODOList</h1>
                 </a>
-                <a href="https://github.com/rudns2/nomardcoder_todolist.git"><img class="clon_git_logo" src="../assets/img/github-mark-white.png" alt=""></a>
+                <a href="https://github.com/rudns2/nomardcoder_todolist.git"><img class="clon_git_logo"
+                    src="../assets/img/github-mark-white.png" alt=""></a>
               </div>
             </div>
           </swiper-slide>
@@ -103,7 +104,7 @@
   .cloing_box {
     background-color: #121212;
   }
-  
+
   .cloning_box_wrap {
     max-width: 1400px;
     width: 100%;
@@ -134,29 +135,35 @@
     display: flex;
     justify-content: center;
     gap: 15px;
-    position : relative;
+    position: relative;
   }
+
   .ing_span {
-    font-size : 48px;
-    font-weight : bold;
-    color : #000;
-    position : absolute;
-    top : -180px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: -180px;
   }
+
   .panel_01_front {
     width: 50%;
   }
 
   .clon_h4 {
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
   }
-  swiper-slide{
-    position : relative;
+
+  swiper-slide {
+    position: relative;
   }
-.ing{
-  filter:brightness(50%);
-}
+
+  .ing {
+    filter: brightness(50%);
+  }
+
+
   @media (max-width: 1280px) {
     .panel_01_front {
       width: 80%;
@@ -167,6 +174,7 @@
     .cloning_box_wrap h1 {
       font-size: 48px;
     }
+
     .cloning_box_wrap {
       width: 100%;
     }

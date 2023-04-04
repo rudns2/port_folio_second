@@ -9,14 +9,14 @@
               <img src="../assets/img/wonju-env-eba-vmtpngwa-ap-northeast-2-elasticbeanstalk-2023-01-04-09_26_two1.png" alt="" />
               <div class="project_links">
                 <h1>{{ projectSite[0] }}</h1>
-                <a href="https://github.com/walkingcabbage/wonju.git"><img src="../assets/img/github-mark-white.png" alt="" /></a>
+                <a href="https://github.com/walkingcabbage/wonju.git"><img src="../assets/img/github-mark-black.png" alt="" /></a>
               </div>
             </div>
             <div class="project_img_list">
               <img src="../assets/img/hm-127-0-0-1-3030-main-2023-01-03-10_40_1-2.png" alt="" />
               <div class="project_links">
                 <h1>{{ projectSite[1] }}</h1>
-                <a href="https://github.com/rudns2/hm_1223.git"><img src="../assets/img/github-mark-white.png" alt="" /></a>
+                <a href="https://github.com/rudns2/hm_1223.git"><img src="../assets/img/github-mark-black.png" alt="" /></a>
               </div>
             </div>
           </div>
@@ -53,7 +53,6 @@ export default {
   text-align: justify;
   margin-bottom: 35px;
 }
-
 .project_img_wrap {
   display: flex;
   justify-content: space-evenly;
@@ -62,13 +61,15 @@ export default {
 }
 
 .project_img_wrap div {
-  width: 100%;
+  width: 100%; 
 }
 .project_img_list img {
   width: 100%;
 }
 .project_links{
-  background-color: #bfaf0f;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
 }
 .project_links img {
   width: 35px;
