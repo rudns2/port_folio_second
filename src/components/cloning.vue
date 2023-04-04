@@ -53,7 +53,6 @@
               </div>
             </div>
           </swiper-slide>
-          <swiper-slide> slide - 5 </swiper-slide>
         </swiper>
       </div>
     </div>
